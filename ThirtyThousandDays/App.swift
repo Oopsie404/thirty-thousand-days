@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct TrueTimeProgressApp: App {
+struct ThirtyThousandDaysApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

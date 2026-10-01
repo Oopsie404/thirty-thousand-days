@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "100000000000000000000010"
-               BuildableName = "TrueTimeProgress.app"
-               BlueprintName = "TrueTimeProgress"
-               ReferencedContainer = "container:TrueTimeProgress.xcodeproj">
+               BuildableName = "ThirtyThousandDays.app"
+               BlueprintName = "ThirtyThousandDays"
+               ReferencedContainer = "container:ThirtyThousandDays.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "100000000000000000000010"
-            BuildableName = "TrueTimeProgress.app"
-            BlueprintName = "TrueTimeProgress"
-            ReferencedContainer = "container:TrueTimeProgress.xcodeproj">
+            BuildableName = "ThirtyThousandDays.app"
+            BlueprintName = "ThirtyThousandDays"
+            ReferencedContainer = "container:ThirtyThousandDays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "100000000000000000000010"
-            BuildableName = "TrueTimeProgress.app"
-            BlueprintName = "TrueTimeProgress"
-            ReferencedContainer = "container:TrueTimeProgress.xcodeproj">
+            BuildableName = "ThirtyThousandDays.app"
+            BlueprintName = "ThirtyThousandDays"
+            ReferencedContainer = "container:ThirtyThousandDays.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

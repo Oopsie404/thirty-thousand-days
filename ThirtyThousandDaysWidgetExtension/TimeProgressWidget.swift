@@ -238,7 +238,7 @@ struct EventProgressWidgetView: View {
     }
 }
 
-struct TrueTimeProgressWidget: Widget {
+struct ThirtyThousandDaysWidget: Widget {
     let kind = "TimeProgressLifeWidgetV2"
 
     var body: some WidgetConfiguration {
@@ -278,9 +278,9 @@ struct EventTwoProgressWidget: Widget {
 }
 
 @main
-struct TrueTimeProgressWidgetBundle: WidgetBundle {
+struct ThirtyThousandDaysWidgetBundle: WidgetBundle {
     var body: some Widget {
-        TrueTimeProgressWidget()
+        ThirtyThousandDaysWidget()
         EventOneProgressWidget()
         EventTwoProgressWidget()
     }
