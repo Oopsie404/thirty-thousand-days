@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100000000000000000000101 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000201 /* App.swift */; };
+		100000000000000000000102 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000202 /* ContentView.swift */; };
+		100000000000000000000103 /* TimeProgressWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000203 /* TimeProgressWidget.swift */; };
+		100000000000000000000104 /* TrueTimeProgressWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 100000000000000000000302 /* TrueTimeProgressWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		100000000000000000000105 /* TimeProgressShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* TimeProgressShared.swift */; };
+		100000000000000000000106 /* TimeProgressShared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000208 /* TimeProgressShared.swift */; };
+		100000000000000000000107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100000000000000000000209 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100000000000000000000401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100000000000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100000000000000000000011;
+			remoteInfo = TrueTimeProgressWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		100000000000000000000501 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				100000000000000000000104 /* TrueTimeProgressWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		100000000000000000000201 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		100000000000000000000202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		100000000000000000000203 /* TimeProgressWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProgressWidget.swift; sourceTree = "<group>"; };
+		100000000000000000000204 /* TrueTimeProgress.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrueTimeProgress.entitlements; sourceTree = "<group>"; };
+		100000000000000000000205 /* TrueTimeProgressWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrueTimeProgressWidgetExtension.entitlements; sourceTree = "<group>"; };
+		100000000000000000000206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100000000000000000000208 /* TimeProgressShared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeProgressShared.swift; sourceTree = "<group>"; };
+		100000000000000000000209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100000000000000000000301 /* TrueTimeProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueTimeProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100000000000000000000302 /* TrueTimeProgressWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TrueTimeProgressWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100000000000000000000601 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000602 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100000000000000000000803 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000107 /* Assets.xcassets in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXGroup section */
+		100000000000000000000701 = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000702 /* TrueTimeProgress */,
+				100000000000000000000703 /* TrueTimeProgressWidgetExtension */,
+				100000000000000000000705 /* Shared */,
+				100000000000000000000704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100000000000000000000702 /* TrueTimeProgress */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000201 /* App.swift */,
+				100000000000000000000202 /* ContentView.swift */,
+				100000000000000000000209 /* Assets.xcassets */,
+				100000000000000000000206 /* Info.plist */,
+				100000000000000000000204 /* TrueTimeProgress.entitlements */,
+			);
+			path = TrueTimeProgress;
+			sourceTree = "<group>";
+		};
+		100000000000000000000703 /* TrueTimeProgressWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000203 /* TimeProgressWidget.swift */,
+				100000000000000000000207 /* Info.plist */,
+				100000000000000000000205 /* TrueTimeProgressWidgetExtension.entitlements */,
+			);
+			path = TrueTimeProgressWidgetExtension;
+			sourceTree = "<group>";
+		};
+		100000000000000000000704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000301 /* TrueTimeProgress.app */,
+				100000000000000000000302 /* TrueTimeProgressWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100000000000000000000705 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				100000000000000000000208 /* TimeProgressShared.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100000000000000000000010 /* TrueTimeProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000901 /* Build configuration list for PBXNativeTarget "TrueTimeProgress" */;
+			buildPhases = (
+				100000000000000000000801 /* Sources */,
+				100000000000000000000601 /* Frameworks */,
+				100000000000000000000803 /* Resources */,
+				100000000000000000000501 /* Embed App Extensions */,
+			);
+			buildRules = ();
+			dependencies = (
+				100000000000000000000402 /* PBXTargetDependency */,
+			);
+			name = TrueTimeProgress;
+			productName = TrueTimeProgress;
+			productReference = 100000000000000000000301 /* TrueTimeProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100000000000000000000011 /* TrueTimeProgressWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100000000000000000000902 /* Build configuration list for PBXNativeTarget "TrueTimeProgressWidgetExtension" */;
+			buildPhases = (
+				100000000000000000000802 /* Sources */,
+				100000000000000000000602 /* Frameworks */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = TrueTimeProgressWidgetExtension;
+			productName = TrueTimeProgressWidgetExtension;
+			productReference = 100000000000000000000302 /* TrueTimeProgressWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					100000000000000000000010 = {CreatedOnToolsVersion = 26.0;};
+					100000000000000000000011 = {CreatedOnToolsVersion = 26.0;};
+				};
+			};
+			buildConfigurationList = 100000000000000000000900 /* Build configuration list for PBXProject "TrueTimeProgress" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = 100000000000000000000701;
+			productRefGroup = 100000000000000000000704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100000000000000000000010 /* TrueTimeProgress */,
+				100000000000000000000011 /* TrueTimeProgressWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100000000000000000000801 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000101 /* App.swift in Sources */, 100000000000000000000102 /* ContentView.swift in Sources */, 100000000000000000000105 /* TimeProgressShared.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+		100000000000000000000802 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (100000000000000000000103 /* TimeProgressWidget.swift in Sources */, 100000000000000000000106 /* TimeProgressShared.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100000000000000000000402 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = 100000000000000000000011 /* TrueTimeProgressWidgetExtension */; targetProxy = 100000000000000000000401 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		100000000000000000001001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		100000000000000000001002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		100000000000000000001101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrueTimeProgress/TrueTimeProgress.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrueTimeProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hang.TrueTimeProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		100000000000000000001102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TrueTimeProgress/TrueTimeProgress.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrueTimeProgress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hang.TrueTimeProgress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		100000000000000000001201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TrueTimeProgressWidgetExtension/TrueTimeProgressWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrueTimeProgressWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../../../Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hang.TrueTimeProgress.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Debug;
+		};
+		100000000000000000001202 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TrueTimeProgressWidgetExtension/TrueTimeProgressWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TrueTimeProgressWidgetExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../../../Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hang.TrueTimeProgress.Widgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = appex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100000000000000000000900 /* Build configuration list for PBXProject "TrueTimeProgress" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000001001 /* Debug */, 100000000000000000001002 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000901 /* Build configuration list for PBXNativeTarget "TrueTimeProgress" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000001101 /* Debug */, 100000000000000000001102 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		100000000000000000000902 /* Build configuration list for PBXNativeTarget "TrueTimeProgressWidgetExtension" */ = {isa = XCConfigurationList; buildConfigurations = (100000000000000000001201 /* Debug */, 100000000000000000001202 /* Release */,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = 100000000000000000000001 /* Project object */;
+}
